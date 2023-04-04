@@ -3,8 +3,36 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-color: rgb(24, 162, 105);
+}
+
+section{
+    background-color: white;
+    width: 55vw;
+    margin: 10vh auto 0px auto;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#img-login {
+    height: 250px;
+    background: url(../images/Bg\ Login.jpg) no-repeat right top;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+#caixa-form{
+    padding: 20px;
+}
+
+#caixa-form h1{
+    padding: 10px;
+    text-align: center;
+}
+
+#caixa-form p {
+    text-align: justify;
 }
