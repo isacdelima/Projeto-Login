@@ -45,8 +45,8 @@ section{
 }
 
 #caixa-form input.campo{
-    display: inline-block;
-    margin: 10px auto 10px auto;
+    display: inline;
+    margin: 5px auto 5px auto;
     padding: 7px;
     background-color: var(--cor-secundaria);
     border-radius: 5px;
@@ -57,9 +57,10 @@ section{
 }
 
 #campo-email, #campo-senha{
-    margin: 10px auto 10px auto;
+    margin: 5px auto 5px auto;
     padding: 2px;
     width: 245px;
+    translate: -10px;
 }
 
 #caixa-form input.button{
