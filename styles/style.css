@@ -19,7 +19,7 @@ body{
 
 section{
     background-color: white;
-    width: 60vw;
+    width: 63vw;
     margin: 10vh auto 0px auto;
     border-radius: 15px 15px 15px 15px;
 }
@@ -54,6 +54,12 @@ section{
 
 #caixa-form input.campo:focus{
     background-color: white;
+}
+
+#campo-email, #campo-senha{
+    margin: 10px auto 10px auto;
+    padding: 2px;
+    width: 245px;
 }
 
 #caixa-form input.button{

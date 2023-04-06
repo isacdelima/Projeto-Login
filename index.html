@@ -18,14 +18,18 @@
                 <h1>Login</h1>
                 <p>Bem-vindo!, insira os dados para acessar o portal do ambiente educacional.</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <span class="material-symbols-outlined" id="person">
-                        person
-                    </span>
-                    <input type="email" name="email" id="iemail" class="campo" placeholder="seu e-mail" required onclick="clickEmail()">
-                    <span class="material-symbols-outlined" id="senha">
-                        vpn_key
-                    </span>
-                    <input type="password" name="password" id="ipassword" class="campo" placeholder="sua senha" required minlength="8" onclick="clickPassword()">
+                    <div id="campo-email">
+                        <span class="material-symbols-outlined" id="person">
+                            person
+                        </span>
+                        <input type="email" name="email" id="iemail" class="campo" placeholder="seu e-mail" required onclick="clickEmail()">
+                    </div>
+                    <div id="campo-senha">
+                        <span class="material-symbols-outlined" id="senha">
+                            vpn_key
+                        </span>
+                        <input type="password" name="password" id="ipassword" class="campo" placeholder="sua senha" required minlength="8" onclick="clickPassword()">
+                    </div>
                     <input type="submit" id="btn-submit" class="button" value="Entrar">
                     <input type="reset" id="btn-reset" class="button" value="Esqueci a Senha &#x2709">
                 </form>
