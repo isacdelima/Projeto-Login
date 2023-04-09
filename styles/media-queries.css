@@ -6,8 +6,9 @@
         background-image: linear-gradient(to top, #041839 60%, #5a8dc7 );
     }
     section{
+        height: 400px;
         width: 80vw;
-        font-size: 1.1em;
+        font-size: 1em;
     }
  
     section #img-login{
@@ -21,7 +22,7 @@
         float: right;
         height: 100%;
         width: 50%;
-        top: 20%;
+        top: 10%;
         margin: 10px 0 10px 0;
     }
 
@@ -38,8 +39,9 @@
     }
 
     section{
+        height: 380px;
         width: 950px;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     section #img-login{
@@ -53,7 +55,7 @@
         float: left;
         width: 50%;
         margin: 10px 0 10px 0;
-        top: 15%;
+        top: 8%;
     }
 
    

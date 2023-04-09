@@ -75,6 +75,7 @@ section{
     background-color: var(--cor-secundaria);
     height: 30px;
     width: 85%;
+    border-radius: 5px;
 }
 
 #caixa-form .form input:focus{
