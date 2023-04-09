@@ -7,17 +7,26 @@
     }
     section{
         width: 80vw;
+        font-size: 1.1em;
     }
  
     section #img-login{
         float: left;
-        width: 30%;
         height: 100%;
-    }
+        width: 50%;
+     }
 
     section #caixa-form{
-        float: rigtht;
-        width: 70%;
+        position: relative;
+        float: right;
+        height: 100%;
+        width: 50%;
+        top: 20%;
+        margin: 10px 0 10px 0;
+    }
+
+    #caixa-form .form input{
+        width: 60%;
     }
 }
 
@@ -25,10 +34,12 @@
 
     body{
         background-image: linear-gradient(to top, #041839 60%, #5a8dc7 );
+        
     }
 
     section{
         width: 950px;
+        font-size: 1.2em;
     }
 
     section #img-login{
@@ -38,11 +49,20 @@
     }
 
     section #caixa-form{
+        position: relative;
         float: left;
         width: 50%;
+        margin: 10px 0 10px 0;
+        top: 15%;
     }
 
+   
     #caixa-form p {
-        font-size: 1.5em;
+        font-size: 1.3em;
+    }
+
+    #caixa-form .form input{
+        width: 55%;
+        
     }
 }
