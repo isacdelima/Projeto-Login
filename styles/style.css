@@ -72,9 +72,10 @@ section{
 }
 
 #caixa-form .form input{
+    position: relative;
     background-color: var(--cor-secundaria);
     height: 30px;
-    width: 85%;
+    width: 80%;
     border-radius: 5px;
 }
 
